@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог курсов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="images/logo.svg" alt="Virtuoso">
+    </div>
+
+    <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+    </nav>
+</header>
+
+<section class="catalog">
+
+    <h1>Каталог курсов</h1>
+
+    <!-- Поиск -->
+    <input
+        type="text"
+        class="search-input"
+        placeholder="Поиск курса..."
+    >
+
+    <!-- Сортировка -->
+    <select class="sort-select">
+        <option>Сортировка</option>
+        <option>По названию</option>
+        <option>По количеству занятий</option>
+    </select>
+
+    <div class="catalog-grid">
+
+        <div class="catalog-card"
+             data-title="Фортепиано"
+             data-lessons="12">
+
+            <img src="images/course/course-piano.jpg" alt="">
+            <h3>Основы фортепиано</h3>
+            <p>12 занятий</p>
+
+        </div>
+
+        <div class="catalog-card"
+             data-title="Скрипка"
+             data-lessons="8">
+
+            <img src="images/course/course-violin.jpg" alt="">
+            <h3>Основы игры на скрипке</h3>
+            <p>8 занятий</p>
+
+        </div>
+
+        <div class="catalog-card"
+             data-title="Вокал"
+             data-lessons="16">
+
+            <img src="images/course/vocal.jpg" alt="">
+            <h3>Эстрадный вокал</h3>
+            <p>16 занятий</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
