@@ -307,3 +307,77 @@ a{
 .catalog-card p{
     padding:0 20px 20px;
 }
+
+
+
+/* Страница курса */
+
+.course-page{
+    padding-top:80px;
+}
+
+.course-page h1{
+    font-size:60px;
+    font-family:Georgia, serif;
+    margin-bottom:40px;
+}
+
+.course-top{
+    display:flex;
+    gap:40px;
+    margin-bottom:40px;
+}
+
+.course-main-image{
+    flex:1;
+}
+
+.course-main-image img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+.course-info{
+    flex:1;
+    background:#F0EBE2;
+    border-radius:20px;
+    padding:40px;
+}
+
+.course-info h2{
+    font-family:Georgia, serif;
+    margin-bottom:20px;
+}
+
+.course-info p{
+    color:#8A7A62;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.course-characteristics h3{
+    margin-bottom:15px;
+}
+
+.course-characteristics ul{
+    margin-left:20px;
+}
+
+.course-characteristics li{
+    margin-bottom:12px;
+}
+
+.course-gallery{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+}
+
+.course-gallery img{
+    width:calc(25% - 15px);
+    height:180px;
+    object-fit:cover;
+    border-radius:20px;
+}
