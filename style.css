@@ -27,6 +27,7 @@ a{
 }
 
 
+
 /* Шапка */
 .header{
     position:fixed;
@@ -76,6 +77,8 @@ a{
     padding:15px 30px;
     cursor:pointer;
 }
+
+
 
 /* Первый экран */
 
@@ -130,6 +133,8 @@ a{
 .center{
     text-align:center;
 }
+
+
 
 /* Карточки инструментов */
 
@@ -208,6 +213,8 @@ a{
     width: 400px;
 }
 
+
+
 /* Отзывы */
 
 .reviews{
@@ -253,6 +260,8 @@ a{
     font-size:20px;
 }
 
+
+
 /* Каталог */
 
 .catalog{
@@ -272,18 +281,36 @@ a{
     padding:15px;
     border:1px solid #ddd;
     border-radius:10px;
-    margin-bottom:20px;
+    margin-bottom:15px;
+
+    font-size: 14px;
 }
 
 .sort-select{
-    padding:15px;
+    width: 276px;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+
+    padding:15px 40px 15px 10px;
+
+    background:#fff url("images/arrow-down.svg") no-repeat right 10px center;
+    background-size:12px;
+
     border:1px solid #ddd;
     border-radius:10px;
+
+    font-size:14px;
+    color:#757575;
+
     margin-bottom:30px;
+
+    cursor:pointer;
 }
 
 .catalog-grid{
-    display:flex;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
     gap:25px;
 }
 
@@ -301,11 +328,51 @@ a{
 }
 
 .catalog-card h3{
-    padding:20px 20px 10px;
+    padding:20px 20px 20px;
+}
+
+.catalog-card h2{
+    padding:20px 20px 20px;
+    color: #383124;
+    font-size: 18px;
 }
 
 .catalog-card p{
-    padding:0 20px 20px;
+    padding:0 20px 10px;
+}
+
+.catalog-controls{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.catalog-controls input,
+.catalog-controls select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.pagination{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-top:40px;
+}
+
+.pagination button{
+    padding:8px 15px;
+    border:none;
+    border-radius:8px;
+    background:#8b5e3c;
+    color:white;
+    cursor:pointer;
+}
+
+.pagination button:hover{
+    opacity:0.9;
 }
 
 
