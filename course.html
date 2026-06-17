@@ -140,8 +140,32 @@
             </div>
 
         </div>
+    <h3>Добавить отзыв</h3>
 
+    <!-- Форма добавления отзывв -->
+    <div class="review-form">
+        <input
+            type="text"
+            id="author"
+            placeholder="Ваше имя">
+
+        <textarea
+            id="text"
+            placeholder="Ваш отзыв"></textarea>
+
+        <button id="addReview">
+            Добавить отзыв
+        </button>
+    </div>
     </section>
+    
+    <!-- Модальное окно -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Увеличенное изображение">
+    </div>
+
+    <script src="course.js"></script>
 
 </body>
 </html>
